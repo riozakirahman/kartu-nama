@@ -1,0 +1,88 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 320px;
+  margin: 0 auto;
+}
+.card__wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding: 10px;
+}
+.card__img {
+  border-radius: 15px;
+  width: 100%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 3px 3px 3px 0px #a5f3fc;
+}
+.card__img:hover {
+  transform: scale(1.1);
+}
+.card__owner {
+  text-align: center;
+  font-weight: 500;
+}
+.card__about {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 300;
+}
+.card__skill-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card__skill {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100px;
+  height: 100px;
+  overflow-wrap: break-word;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 0px #a5f3fc;
+}
+.card__skill_main {
+  height: 120px;
+}
+.card__skill_small {
+  width: 50px;
+  color: inherit;
+  border-radius: 50%;
+  text-decoration: none;
+  align-items: center;
+  height: 50px;
+  box-shadow: 3px 3px 3px 0px #a5f3fc;
+}
+.card__skill:hover {
+  transform: scale(1.1);
+}
+.card__skill-title {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card__icon {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+}
+.card__icon_small {
+  font-size: 20px;
+}
